@@ -1,0 +1,57 @@
+/* General Page */
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+/* Header Styling */
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+}
+
+header h1 {
+  color: #0d8557; /* Bootstrap success green */
+}
+
+
+/* Sidebar */
+nav {
+  min-height: 100vh;
+  border-right: 1px solid #dee2e6;
+}
+
+/* Active link highlight */
+nav .nav-link.active,
+nav .nav-link:hover {
+  background-color: #e6f4ea;
+  border-radius: 5px;
+}
+
+/* Form Styling */
+form input,
+form textarea {
+  background-color: #f9f9f9;
+  border: 1px solid #ced4da;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #6c757d;
+  border-top: 1px solid #dee2e6;
+}
+
+/* CUSTOMIZE QUILL IMAGES*/
+.ql-editor img {
+  max-width: 100%; /* Responsive width */
+  height: auto;    /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: rounded corners */
+  margin: 10px 0;
+}
